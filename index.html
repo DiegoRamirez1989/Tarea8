@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Viajes - Búsqueda de Vuelos</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <header>
+        <h1>Buscador de Vuelos y Paquetes Turísticos</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Vuelos</a></li>
+                <li><a href="#">Paquetes</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Encuentra tu próximo viaje</h2>
+        
+        <div class="search-container">
+            <input type="text" id="origen" placeholder="Origen">
+            <input type="text" id="destino" placeholder="Destino">
+            <input type="date" id="fecha_vuelo">
+            <button id="buscarVuelosBtn">Buscar Vuelos</button>
+        </div>
+
+        <div id="resultadosVuelos">
+            <p>Usa el buscador para encontrar vuelos.</p>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Agencia de Viajes. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>
